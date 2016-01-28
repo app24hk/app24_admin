@@ -1,0 +1,227 @@
+html.login, html.login body{ background-color:#888; }
+html.login form{ margin-bottom:0; }
+html.login div.modal{ position:relative;margin:48px auto;top:0;left:0; }
+#modal-recovery{ display:none; }
+.dropdown-menu{ display:none; }
+.container.top{ margin-top:60px; }
+.center{ text-align:center; }
+form.search{ margin:0 0; }
+.list-page h2 a{ float:right; }
+.crud-actions{ width:300px; }
+
+#footer {
+  margin:30px 0 30px 0;
+  background-color: #fff;
+  background-repeat: no-repeat;
+}
+
+body.login #footer hr {
+  display: none;
+}
+
+#footer p a {
+  font-weight: bold;
+}
+
+#footer p {
+  margin-bottom: 0;
+}
+#footer p.right {
+  float: right;
+}
+
+.navbar-fixed-top .brand {
+  color: #999999; 
+  float: right;
+  font-weight: bold;
+  margin-left: 20px;
+  padding: 0px 0 1px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 0 30px rgba(255, 255, 255, 0.125);
+}
+
+.plain-form {
+  margin: 0 0;
+}
+
+.progress-form-file {
+  margin: 18px 0;
+  width: 260px;
+}
+
+.users-header a {
+  float: right;
+}
+
+.reset-margin{
+  margin: 0;
+}
+
+.pagination{
+  text-align: center;
+} 
+
+label{
+  margin: 0 20px;
+} 
+
+form label:first-child{
+  margin: 0 20px 0 12px;
+} 
+
+input[type="submit"]{margin-left: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+.container.login{margin-top: 60px;}
+.login img {
+margin-left: 286px;
+}
+
+.sidebar-nav {
+  padding: 9px 0;
+}
+
+.form-signin {
+  max-width: 300px;
+  padding: 19px 29px 29px;
+  margin: 0 auto 20px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+  box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+  font-size: 16px;
+  height: auto;
+  margin-bottom: 15px;
+  padding: 7px 9px;
+}
+
+/*custom css*/
+#form {
+	padding: 10px;  
+	}
+
+#form .field {
+	margin-bottom:15px;	
+	}
+
+#form label{   
+    display: block; 
+	float: left; 
+	font-weight: bold; 
+	margin-right:10px; 
+	text-align: right; 
+	width: 150px; 
+	line-height: 35px; 
+	font-size:14px;
+	cursor: pointer;	
+	} 
+
+#form .checkbox{ 
+	margin-top:10px;    
+	}
+	
+#form .input{		
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;	
+	background-color: #eaeaea;
+	background: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #ffffff), color-stop(1.0, #f2f2f2));
+	border: 1px solid #cacaca;
+	font-family: inherit;	
+	color: #797979;
+	font-size: 15px;	
+	padding: 8px 10px;
+	width: 300px;
+	font-weight: bold; 	
+	}
+	
+#form .state{	
+  	border: 1px solid #b9bdc1; 
+  	padding: 5px; 
+  	font-size: 15px; 
+  	font-family: inherit;	
+  	font-weight: bold;
+  	color: #797979; 
+	}
+
+#form :focus{	
+  	-webkit-box-shadow: 0px 0px 4px #aaa;
+	-moz-box-shadow: 0px 0px 4px #aaa; 
+	box-shadow: 0px 0px 4px #aaa; 
+	}
+
+#form .gender-fields{
+	padding-top:10px;
+	}
+
+	#form  span.error {	
+	color:red;
+	padding-left:20px;
+	}
+	
+#form .info{	
+	margin-left:130px;	
+	font-size: 12px;
+	font-style:italic;
+	color: #999;
+	}
+
+#form .submit{
+	-moz-border-radius: 15px;	
+	-webkit-border-radius: 15px;
+	font-family: arial,verdana,sans-serif;	
+	background-color: #dedede;
+	background: -moz-linear-gradient(top, #ffffff, #eaeaea);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #ffffff), color-stop(1.0, #eaeaea));
+	border: 1px solid #dedede;
+	color: #484848;
+	font-size:14px;
+	font-weight: bold;
+	padding: 8px 10px;
+	cursor: pointer; 
+	margin-left:220px;
+	}
+.document-open-link{
+	 float:left;
+	 width:170px;
+	 font-size:14px;
+}
+.document-removal-field{
+	 float:left;
+	 width:240px;
+	 color:red;
+	 font-weight:bold;
+	 font-size:14px;
+}
+.document-removal-link{
+	 float:left;
+	 width:150px;
+	 color:red;
+	 font-weight:bold;
+	 font-size:14px;
+}
+.document-removal-link a{
+	 color:red;
+}
